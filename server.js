@@ -1,5 +1,3 @@
-const PORT = process.env.PORT || 3001;
-
-app.listen(PORT, () => {
-    console.log(`Server running on ${PORT}`);
-});
+const mysql = require('mysql2');
+const inquirer = require('inquirer');
+const cTable = require('console.table');
