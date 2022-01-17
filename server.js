@@ -13,6 +13,13 @@ const db = mysql.createConnection(
     }
 );
 
+db.connect((err) => {
+    if (err) {
+        console.log(err);
+    }
+    promptUser();
+});
+
 const promptUser = () => {
     inquirer.prompt([
         {
