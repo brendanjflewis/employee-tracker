@@ -2,8 +2,6 @@ const mysql = require('mysql2');
 const inquirer = require('inquirer');
 const cTable = require('console.table');
 
-// const connection = require('./db/connection');
-
 require('dotenv').config()
 
 const connection = mysql.createConnection(
@@ -14,18 +12,6 @@ const connection = mysql.createConnection(
         database: process.env.DB_NAME,
     }
 );
-
-// db.connect(err => {
-//     if (err) {
-//         console.log(err);
-//     }
-//     promptUser();
-// });
-
-// connection.connect((error) => {
-//     if (error) throw error;
-//     promptUser();
-// });
 
 connection.connect((error) => {
     if (error) throw error;
