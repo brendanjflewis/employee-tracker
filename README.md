@@ -22,6 +22,10 @@ Command-line application to manage a company's employee database using Node.js, 
 <a name="usage"></a>
 ## Usage
 
+* Keep track of your employees
+* View and add departments
+* View and add employees
+* View, add, and update employee roles
 
 <a name="questions"></a>
 ## Questions
