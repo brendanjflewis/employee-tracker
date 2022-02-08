@@ -1,5 +1,5 @@
 INSERT INTO department (name) VALUES ('Business Operations');
-INSERT INTO role (title, salary, department_id) VALUES ('Director of Business Operations', '120000', 1);
+INSERT INTO role (title, salary, department_id) VALUES ('Director of Bis Ops', '120000', 1);
 INSERT INTO employee (first_name, last_name, role_id) VALUES  ('Ted', 'Lasso', 1);
 
 INSERT INTO department (name) VALUES ('Engineering');
