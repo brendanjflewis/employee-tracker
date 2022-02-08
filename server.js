@@ -194,7 +194,6 @@ function addEmployee() {
     })
 }
 
-
 // function to update an employee's role
 function updateEmployeeRole() {
     inquirer.prompt([
